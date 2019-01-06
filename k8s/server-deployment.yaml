@@ -6,11 +6,11 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      compoment: server
+      component: server
   template:
     metadata:
       labels:
-        compoment: server
+        component: server
     spec:
       containers:
       - name: server
