@@ -11,7 +11,8 @@ spec:
         - sobolev.cloud
       secretName: my-first-secret
   rules:
-    - http:
+    - host: sobolev.cloud
+      http:
         paths:
           - path: /
             backend: 
